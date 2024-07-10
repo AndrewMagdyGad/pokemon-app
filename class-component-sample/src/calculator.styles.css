@@ -1,0 +1,24 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.container button {
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    min-width: 50px;
+}
+
+.container span {
+    font-size: 1.5rem;
+}
+
+.row {
+    display: flex;
+    gap: 8px;
+}

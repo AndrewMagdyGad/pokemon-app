@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 2rem;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #dfdedea4;
+}
+
+.counter {
+    padding: 35px;
+    font-size: 2rem;
+    font-weight: 700;
+}

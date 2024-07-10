@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+    height: 100%;
+}
+
+.pokemon-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+    margin-top: auto;
+}
+
+.footer button {
+    font-size: 2rem;
+    padding: 15px;
+    cursor: pointer;
+}
